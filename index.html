@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-ubuntu总结" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/09/22/ubuntu%E6%80%BB%E7%BB%93/" class="article-date">
+  <time datetime="2020-09-22T11:08:41.724Z" itemprop="datePublished">2020-09-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="ubuntu总结"><a href="#ubuntu总结" class="headerlink" title="ubuntu总结"></a>ubuntu总结</h2><p>常用命令：</p>
+<img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200918211130919.png" alt="image-20200918211130919" style="zoom:50%;" />
+
+<h3 id="1Linux终端命令格式："><a href="#1Linux终端命令格式：" class="headerlink" title="1Linux终端命令格式："></a>1Linux终端命令格式：</h3><ul>
+<li>command [-options] [parameter]</li>
+</ul>
+<blockquote>
+<p>说明：1.command：命令名，相应功能的英文单词的缩写。</p>
+<p>​          2.[-options]：选项，可以用来对命令进行控制，也可以省略。</p>
+<p>​          3.parameter：传给命令的参数，可以是零个，一个或者多个。</p>
+</blockquote>
+<p>​     <u>注：”[ ]”的意思是可以选也可以不选。</u></p>
+<h3 id="2查询命令帮助信息（知道）"><a href="#2查询命令帮助信息（知道）" class="headerlink" title="2查询命令帮助信息（知道）"></a>2查询命令帮助信息（知道）</h3><ul>
+<li>现阶段只需要知道通过两种方式查询命令的帮助信息。</li>
+<li>先学习常用命令及常用选项即可，工作中如果遇到问题可以借助网络进行搜索。</li>
+</ul>
+<h4 id="2-1–help"><a href="#2-1–help" class="headerlink" title="2.1–help"></a>2.1–help</h4><ul>
+<li><u>command-help</u></li>
+</ul>
+<blockquote>
+<p>说明：command命令的帮助信息。</p>
+</blockquote>
+<h4 id="2-2man"><a href="#2-2man" class="headerlink" title="2.2man"></a>2.2man</h4><ul>
+<li><u>man command</u></li>
+</ul>
+<blockquote>
+<p>说明：查询command命令的使用手册。</p>
+<p>man是manual的缩写，是Linux提供的一个手册，包含了绝大部分的命令，函数的详细使用的说明。</p>
+</blockquote>
+<p>man的基本操作键位：</p>
+<img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200918214257193.png" alt="image-20200918214257193" style="zoom:50%;" />
+
+<h3 id="文件和目录常用命令："><a href="#文件和目录常用命令：" class="headerlink" title="文件和目录常用命令："></a>文件和目录常用命令：</h3><h5 id="目标："><a href="#目标：" class="headerlink" title="目标："></a>目标：</h5><ul>
+<li>查看目录内容：ls</li>
+<li>切换目录：cd</li>
+<li>创建和删除操作：touch，rm，mkdir</li>
+<li>拷贝和移动文件：cp，mv</li>
+<li>查看文件内容：cat，more，grep</li>
+<li>其他：echo，重定向&gt;和&gt;&gt;，管道 |</li>
+</ul>
+<h4 id="01查看目录内容"><a href="#01查看目录内容" class="headerlink" title="01查看目录内容"></a>01查看目录内容</h4><h5 id="1-1终端实用技巧"><a href="#1-1终端实用技巧" class="headerlink" title="1.1终端实用技巧"></a>1.1终端实用技巧</h5><h6 id="1自动补全"><a href="#1自动补全" class="headerlink" title="1自动补全"></a>1自动补全</h6><ul>
+<li>在敲出文件/目录/命令 的前几个字母之后，按下 tab键<ul>
+<li>如果输入没有歧义，系统自动补全。</li>
+<li>如果还存在其他文件/目录/命令，再按一下tab键，系统会提示可能存在的命令。</li>
+</ul>
+</li>
+</ul>
+<h6 id="2曾经使用过的命令"><a href="#2曾经使用过的命令" class="headerlink" title="2曾经使用过的命令"></a>2曾经使用过的命令</h6><ul>
+<li>按  上/下 光标可以在曾经使用过的命令之间来回切换。</li>
+<li>如果想要退出选项，并且不想执行当前选中的命令，可以按 ctrl + c。</li>
+</ul>
+<h5 id="1-2ls命令说明"><a href="#1-2ls命令说明" class="headerlink" title="1.2ls命令说明"></a>1.2ls命令说明</h5><ul>
+<li>ls是英文单词list的简写，其功能为列出目录的内容，是用户最常用的命令之一，类似于DOS下的dir命令。</li>
+</ul>
+<p>Linux下文件和睦路的特点：</p>
+<ul>
+<li>Linux文件或者目录名称最长可以有 256 个字符</li>
+<li>以  .   开头的文件为隐藏文件，需要用  -a   参数才能显示</li>
+<li>.   代表当前目录。</li>
+<li>..   代表上一级目录。</li>
+</ul>
+<p>ls常用选项：</p>
+<img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919152103953.png" alt="image-20200919152103953" style="zoom:50%;" />
+
+<h5 id="1-3ls通配符的使用"><a href="#1-3ls通配符的使用" class="headerlink" title="1.3ls通配符的使用"></a>1.3ls通配符的使用</h5><img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919152934049.png" alt="image-20200919152934049" style="zoom:50%;" />
+
+<h4 id="02切换目录"><a href="#02切换目录" class="headerlink" title="02切换目录"></a>02切换目录</h4><h5 id="2-1cd"><a href="#2-1cd" class="headerlink" title="2.1cd"></a>2.1cd</h5><ul>
+<li><p>cd  是英文单词嫦娥 directory 的缩写，其功能为更改当前的工作目录，也是用户最常用的命令之一。</p>
+<p>注意：Linux所有的目录和文件夹名都是大小写敏感的。</p>
+</li>
+</ul>
+<img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919153529897.png" alt="image-20200919153529897" style="zoom:50%;" />
+
+<h5 id="2-2相对路径和绝对路径"><a href="#2-2相对路径和绝对路径" class="headerlink" title="2.2相对路径和绝对路径"></a>2.2相对路径和绝对路径</h5><ul>
+<li>相对路径 ：在输入路径时，最前面不是 / 或者 ~，表示相对 当前目录所在的目录位置。</li>
+<li>绝对路径 ：在输入路径时，最前面是 /  或者 ~，表示从根目录/家目录 开始具体目录位置。</li>
+</ul>
+<h4 id="03创建和删除操作"><a href="#03创建和删除操作" class="headerlink" title="03创建和删除操作"></a>03创建和删除操作</h4><h5 id="3-1touch"><a href="#3-1touch" class="headerlink" title="3.1touch"></a>3.1touch</h5><ul>
+<li>创建文件或修改文件<ul>
+<li>如果文件不存在，可以创建一个空白文件。</li>
+<li>如果文件已经存在，可以修改文件末次修改日期。</li>
+</ul>
+</li>
+</ul>
+<h5 id="3-2mkdir"><a href="#3-2mkdir" class="headerlink" title="3.2mkdir"></a>3.2mkdir</h5><ul>
+<li>创建一个新的目录</li>
+</ul>
+<blockquote>
+<p>-p      可以递归创建目录。</p>
+<p>新目录的名称  不能与当前目录中已有的目录或文件同名。</p>
+</blockquote>
+<h5 id="3-3rm"><a href="#3-3rm" class="headerlink" title="3.3rm"></a>3.3rm</h5><ul>
+<li>可以删除文件和目录</li>
+</ul>
+<blockquote>
+<p>使用   rm  命令要小心，因为文件删除后不能恢复。</p>
+<p>使用rm的时候也可以使用通配符进行操作。</p>
+</blockquote>
+<img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919155443260.png" alt="image-20200919155443260" style="zoom:50%;" />
+
+<h4 id="04拷贝和移动文件"><a href="#04拷贝和移动文件" class="headerlink" title="04拷贝和移动文件"></a>04拷贝和移动文件</h4><img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919160048797.png" alt="image-20200919160048797" style="zoom:50%;" />
+
+<h5 id="4-1tree"><a href="#4-1tree" class="headerlink" title="4.1tree"></a>4.1tree</h5><ul>
+<li>tree 命令可以以树状图列出文件目录结构。</li>
+</ul>
+<img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919160159837.png" alt="image-20200919160159837" style="zoom:50%;" />
+
+<h5 id="4-2cp"><a href="#4-2cp" class="headerlink" title="4.2cp"></a>4.2cp</h5><ul>
+<li>cp 命令的功能是将给出的文件 或 目录复制到另一个文件 或 目录中，相当于DOS下的copy命令。</li>
+</ul>
+<img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919160936308.png" alt="image-20200919160936308" style="zoom:50%;" />
+
+<h5 id="4-3mv"><a href="#4-3mv" class="headerlink" title="4.3mv"></a>4.3mv</h5><ul>
+<li>mv 命令可以用来移动文件或目录，也可以给文件或目录重命名。</li>
+</ul>
+<img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919162603461.png" alt="image-20200919162603461" style="zoom:50%;" />
+
+<h4 id="05查看文件内容"><a href="#05查看文件内容" class="headerlink" title="05查看文件内容"></a>05查看文件内容</h4><img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919163131083.png" alt="image-20200919163131083" style="zoom:50%;" />
+
+<h5 id="5-1cat"><a href="#5-1cat" class="headerlink" title="5.1cat"></a>5.1cat</h5><ul>
+<li>cat 命令可以用来查看文件内容，创建文件，文件合并，追加问价那内容等功能。</li>
+<li>cat  会一次显示所有的内容，适合查看内容较少的文本文件。</li>
+</ul>
+<img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919164005314.png" alt="image-20200919164005314" style="zoom:50%;" />
+
+<blockquote>
+<p>Linux中海油一个nl的命令和 cat    -b    的效果等价。</p>
+</blockquote>
+<h5 id="5-2more"><a href="#5-2more" class="headerlink" title="5.2more"></a>5.2more</h5><ul>
+<li>more命令可以用于分屏显示文件内容，每次只显示一页内容。</li>
+<li>适合于查看内容较多的文本文件。</li>
+</ul>
+<h5 id="5-3grep"><a href="#5-3grep" class="headerlink" title="5.3grep"></a>5.3grep</h5><ul>
+<li>Linux系统中 grep 命令是一种强大的搜索工具。</li>
+<li>grep 允许对文本进行 模式查找，所谓模式查找，又被称为正则表达式。</li>
+</ul>
+<img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919164453274.png" alt="image-20200919164453274" style="zoom:50%;" />
+
+<ul>
+<li>常用的两种查找模式。</li>
+</ul>
+<img src="C:\Users\long\AppData\Roaming\Typora\typora-user-images\image-20200919164529345.png" alt="image-20200919164529345" style="zoom:50%;" />
+
+<h4 id="06其他"><a href="#06其他" class="headerlink" title="06其他"></a>06其他</h4><h5 id="6-1echo-文字内容"><a href="#6-1echo-文字内容" class="headerlink" title="6.1echo 文字内容"></a>6.1echo 文字内容</h5><ul>
+<li>echo  会在终端中显示参数指定的文字，通常会和重定向联合使用。</li>
+</ul>
+<h5 id="6-2重定向-gt-和-gt-gt"><a href="#6-2重定向-gt-和-gt-gt" class="headerlink" title="6.2重定向&gt;和&gt;&gt;"></a>6.2重定向&gt;和&gt;&gt;</h5><ul>
+<li>Linux允许将命令执行结果重定向到一个文件。</li>
+<li>将本应该显示在终端上的内容输出/追加到指定文件中</li>
+</ul>
+<p>其中</p>
+<ul>
+<li>“&gt;”表示输出，会覆盖文件原有内容。</li>
+<li>“&gt;&gt;”表示追加，会将内容追加到已有文件的末尾。</li>
+</ul>
+<h5 id="6-3管道"><a href="#6-3管道" class="headerlink" title="6.3管道"></a>6.3管道</h5><ul>
+<li>Linux允许将一个命令的输出可以通过管道作为另一个</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/09/22/ubuntu%E6%80%BB%E7%BB%93/" data-id="ckfduwyhf0000wsve0j2u7pxj" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/09/22/hello-world/" class="article-date">
+  <time datetime="2020-09-22T10:57:46.887Z" itemprop="datePublished">2020-09-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/09/22/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/09/22/hello-world/" data-id="ckfduliqv00005wvedt6r25u6" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/09/22/ubuntu%E6%80%BB%E7%BB%93/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/09/22/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
