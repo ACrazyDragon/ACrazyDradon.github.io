@@ -29,8 +29,20 @@
 <meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/images/ubuntu总结/image-20200919164005314.png">
 <meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/images/ubuntu总结/image-20200919164453274.png">
 <meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/images/ubuntu总结/image-20200919164529345.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002191508436.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002191744472.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002192123168.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002192341769.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002193918500.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002193943544.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002194516571.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002200119336.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002200301200.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002201608419.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002210054895.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/09/28/ubuntu%E6%80%BB%E7%BB%93/ubuntu总结.assets/image-20201002212158438.png">
 <meta property="article:published_time" content="2020-09-28T12:29:03.000Z">
-<meta property="article:modified_time" content="2020-09-29T11:07:25.443Z">
+<meta property="article:modified_time" content="2020-10-02T14:10:29.831Z">
 <meta property="article:author" content="Long Li">
 <meta property="article:tag" content="ubuntu笔记">
 <meta name="twitter:card" content="summary">
@@ -200,7 +212,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-keyboard-o"></i>
         <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">1.3k字</span>
+        <span class="post-count">2.6k字</span>
       </span>
     </span>
 
@@ -209,7 +221,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-hourglass-half"></i>
         <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">4分</span>
+        <span class="post-count">9分</span>
       </span>
     </span>
 </div>
@@ -360,7 +372,7 @@
 </ul>
 <h5 id="5-3grep"><a href="#5-3grep" class="headerlink" title="5.3grep"></a>5.3grep</h5><ul>
 <li>Linux系统中 grep 命令是一种强大的搜索工具。</li>
-<li>grep 允许对文本进行 模式查找，所谓模式查找，又被称为正则表达式。</li>
+<li><code>grep</code> 允许对文本进行 模式查找，所谓模式查找，又被称为正则表达式。</li>
 </ul>
 <img src="../images/ubuntu总结/image-20200919164453274.png" alt="image-20200919164453274" style="zoom:50%;" />
 
@@ -370,7 +382,7 @@
 <img src="../images/ubuntu总结/image-20200919164529345.png" alt="image-20200919164529345" style="zoom:50%;" />
 
 <h4 id="06其他"><a href="#06其他" class="headerlink" title="06其他"></a>06其他</h4><h5 id="6-1echo-文字内容"><a href="#6-1echo-文字内容" class="headerlink" title="6.1echo 文字内容"></a>6.1echo 文字内容</h5><ul>
-<li>echo  会在终端中显示参数指定的文字，通常会和重定向联合使用。</li>
+<li><code>echo</code>  会在终端中显示参数指定的文字，通常会和重定向联合使用。</li>
 </ul>
 <h5 id="6-2重定向-gt-和-gt-gt"><a href="#6-2重定向-gt-和-gt-gt" class="headerlink" title="6.2重定向&gt;和&gt;&gt;"></a>6.2重定向&gt;和&gt;&gt;</h5><ul>
 <li>Linux允许将命令执行结果重定向到一个文件。</li>
@@ -378,13 +390,205 @@
 </ul>
 <p>其中</p>
 <ul>
-<li>“&gt;”表示输出，会覆盖文件原有内容。</li>
-<li>“&gt;&gt;”表示追加，会将内容追加到已有文件的末尾。</li>
+<li><code>&gt;</code>表示输出，会覆盖文件原有内容。</li>
+<li><code>&gt;&gt;</code>表示追加，会将内容追加到已有文件的末尾。</li>
 </ul>
 <h5 id="6-3管道"><a href="#6-3管道" class="headerlink" title="6.3管道"></a>6.3管道</h5><ul>
-<li>Linux允许将一个命令的输出可以通过管道作为另一个</li>
+<li><p>Linux允许将一个命令的输出可以通过管道作为另一个</p>
+</li>
+<li><p>可以理解现实生活中的管子，罐子的一头塞东西进去，另一头取出来，这里 ‘ | ’的左右分为两端，左端塞东西（写），右边取东西（读）。</p>
+</li>
 </ul>
+<p>常用的命令有：</p>
+<ul>
+<li><code>more</code>：分屏显示内容</li>
+<li><code>grep</code>：在命令执行结果的基础上查询指定的文本。</li>
+</ul>
+<h3 id="远程管理常用命令："><a href="#远程管理常用命令：" class="headerlink" title="远程管理常用命令："></a>远程管理常用命令：</h3><h4 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h4><ul>
+<li><p>关机/重启</p>
+<ul>
+<li><code>shutdown</code></li>
+</ul>
+</li>
+<li><p>查看配置网卡信息</p>
+<ul>
+<li><code>config</code></li>
+<li><code>ping</code></li>
+</ul>
+</li>
+<li><p>远程登录和复制文件</p>
+<ul>
+<li><code>ssh</code></li>
+<li><code>scp</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="01关机-重启"><a href="#01关机-重启" class="headerlink" title="01关机/重启"></a>01关机/重启</h4><img src="ubuntu总结.assets/image-20201002191508436.png" alt="image-20201002191508436" style="zoom:50%;" />
 
+<h5 id="1-1shutdown"><a href="#1-1shutdown" class="headerlink" title="1.1shutdown"></a>1.1shutdown</h5><ul>
+<li>shutdown``命令可以安全关闭或者重新自动系统</li>
+</ul>
+<img src="ubuntu总结.assets/image-20201002191744472.png" alt="image-20201002191744472" style="zoom:50%;" />
+
+<blockquote>
+<p>提示：</p>
+<ul>
+<li>不指定选项和参数，默认一分钟后关闭电脑</li>
+<li>远程维护服务器时，最好不要关闭系统，而应该重新启动系统</li>
+</ul>
+</blockquote>
+<ul>
+<li>常用命令示例</li>
+</ul>
+<img src="ubuntu总结.assets/image-20201002192123168.png" alt="image-20201002192123168" style="zoom:50%;" />
+
+<h4 id="02查看或配置网卡信息"><a href="#02查看或配置网卡信息" class="headerlink" title="02查看或配置网卡信息"></a>02查看或配置网卡信息</h4><img src="ubuntu总结.assets/image-20201002192341769.png" alt="image-20201002192341769" style="zoom:50%;" />
+
+<img src="ubuntu总结.assets/image-20201002193918500.png" alt="image-20201002193918500" style="zoom:50%;" />
+
+<h5 id="2-1网卡和IP配置"><a href="#2-1网卡和IP配置" class="headerlink" title="2.1网卡和IP配置"></a>2.1网卡和IP配置</h5><p>网卡</p>
+<ul>
+<li>网卡是一个专门负责网络通讯的硬件设备</li>
+<li><strong>IP地址</strong>是设置在网卡上的地址信息</li>
+</ul>
+<blockquote>
+<p>我们可以吧<strong>电脑</strong>比作<strong>电话</strong>，<strong>网卡</strong>相当于<strong>SIM卡</strong>，<strong>IP地址</strong>相当于<strong>电话号码</strong></p>
+</blockquote>
+<p>IP地址</p>
+<ul>
+<li>每台联网的电脑上都有IP地址，是保证电脑之间正常通讯的重要设置</li>
+</ul>
+<blockquote>
+<p>注意：每台电脑的IP地址不能相同，否则会出现IP地址冲突，并且没有办法正常通讯</p>
+</blockquote>
+<h5 id="2-2ifconfig"><a href="#2-2ifconfig" class="headerlink" title="2.2ifconfig"></a>2.2ifconfig</h5><ul>
+<li><code>ifconfig</code>可以查看/配置计算机当前的网卡配置信息</li>
+</ul>
+<img src="ubuntu总结.assets/image-20201002193943544.png" alt="image-20201002193943544" style="zoom:50%;" />
+
+<blockquote>
+<p>提示：一台计算机可能有一个<strong>物理网卡</strong>和多个<strong>虚拟网卡</strong>，在Linux中物理网卡的名字通常以<code>ensXXX</code>表示</p>
+</blockquote>
+<ul>
+<li><code>127.0.0.1</code>被视为<code>本地循环</code>/<code>环回地址</code>，一个用来测试本机网卡是否正常</li>
+</ul>
+<h5 id="2-3ping"><a href="#2-3ping" class="headerlink" title="2.3ping"></a>2.3ping</h5><img src="ubuntu总结.assets/image-20201002194516571.png" alt="image-20201002194516571" style="zoom:50%;" />
+
+<ul>
+<li><code>ping</code>一般用于检测当前计算机到目标计算机之间的网络<strong>是否通畅，数值越大，速度越慢</strong></li>
+</ul>
+<blockquote>
+<ul>
+<li><code>ping</code>的工作原理与潜水艇的声呐相似，<code>ping</code>这个命令就是取自<strong>声呐的声音</strong></li>
+<li>网络管理员之间也经常讲<code>ping</code>用作动词，–<strong>ping一下计算机x，看他是否开着</strong></li>
+</ul>
+</blockquote>
+<p>原理：网络上的机器都有唯一确定的IP地址，我们给目标IP地址发送一个数据包，对方就要返回一个数据包，根据返回的数据包以及时间，我们可以确定目标主机的存在</p>
+<blockquote>
+<p>提示：在Linux中，想要终止一个终端程序的执行，绝大多数都可以使用<strong>CTRL+C</strong></p>
+</blockquote>
+<h4 id="03远程登陆和复制文件"><a href="#03远程登陆和复制文件" class="headerlink" title="03远程登陆和复制文件"></a>03远程登陆和复制文件</h4><img src="ubuntu总结.assets/image-20201002200119336.png" alt="image-20201002200119336" style="zoom:50%;" />
+
+<h5 id="3-1ssh基础（重点）"><a href="#3-1ssh基础（重点）" class="headerlink" title="3.1ssh基础（重点）"></a>3.1ssh基础（重点）</h5><p>在Linux中SSH时非常常用的工具，通过SSH客户端我们可以连接到运行了SSH的远程机器上</p>
+<img src="ubuntu总结.assets/image-20201002200301200.png" alt="image-20201002200301200" style="zoom:50%;" />
+
+<ul>
+<li><p>SSH客户端是一种使用<code>Secure Shell (SSH)</code>协议连接到远程计算机软件程序</p>
+</li>
+<li><p><code>SSH</code>是目前比较可靠，专门为<strong>远程登录会话</strong>和<strong>其他网络服务</strong>提供安全性的协议。</p>
+<ul>
+<li>利用ssh协议可以有效地防止远程管理过程中的信息泄露</li>
+<li>通过ssh协议可以对所有传输的数据进行加密，也能够防止DNS欺骗和IP欺骗</li>
+</ul>
+</li>
+<li><p><code>SSH</code>的另一项优点是传输数据可以是经过压缩的，所以可以加快传输的速度</p>
+</li>
+</ul>
+<h6 id="1》域名和端口号"><a href="#1》域名和端口号" class="headerlink" title="1》域名和端口号"></a>1》域名和端口号</h6><p>域名</p>
+<ul>
+<li>是有遗传用点分割的名字组成，例如<code>www.itchst.cn</code></li>
+<li>IP地址的别名，方便用户回忆</li>
+</ul>
+<p>端口号</p>
+<ul>
+<li><p>IP地址：通过IP地址找到网络上的计算机</p>
+</li>
+<li><p>端口号：通过端口号可以找到计算机上运行的应用程序</p>
+<ul>
+<li>SSH服务器的默认端口号是<code>22</code>，如果是默认端口号，在连接的时候可以省略</li>
+</ul>
+</li>
+<li><p>常见服务器端口号列表：</p>
+</li>
+</ul>
+<img src="ubuntu总结.assets/image-20201002201608419.png" alt="image-20201002201608419" style="zoom:50%;" />
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh [-p port] user@remote</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>user</code>是在远程机器上的用户名，如果不指定的话就认为当前用户</li>
+<li><code>remote</code>是远程机器的地址，可以使IP/域名，或者是后面会提到的别名</li>
+<li><code>port</code>是SSH server监听的端口，如果不确定，就默认为<code>22</code></li>
+</ul>
+<blockquote>
+<p>提示：</p>
+<ul>
+<li>使用<code>exit</code>退出当前用户的登陆</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>注意：</p>
+<ul>
+<li><code>ssh</code>这个终端命令只能在<code>Linux</code>系统下使用</li>
+<li>如果在<code>Windows</code>系统中，可以安装<code>PuTTY</code>或者<code>XShell</code>客户端软件即可</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>提示：</p>
+<ul>
+<li>在工作中，ssh服务器端口号很有可能不是22，如果遇到这种情况需要使用<code>-p</code>选项，指定正确的端口号，否则无法正常连接到服务器。</li>
+</ul>
+</blockquote>
+<h6 id="2》-windows下SSH客户端的安装"><a href="#2》-windows下SSH客户端的安装" class="headerlink" title="2》 windows下SSH客户端的安装"></a>2》 windows下SSH客户端的安装</h6><ul>
+<li>Putty</li>
+<li>XShell</li>
+</ul>
+<blockquote>
+<p>建议从官方网站下载正式的安装程序</p>
+</blockquote>
+<h5 id="3-2scp（掌握）"><a href="#3-2scp（掌握）" class="headerlink" title="3.2scp（掌握）"></a>3.2scp（掌握）</h5><ul>
+<li>scp就是secure copy，是一个在Linux下用来运行远程拷贝文件的命令</li>
+<li>他的地址格式与ssh基本相同，需要注意的是，在指定端口时用的是大写的<code>-P</code>，而不是小写的</li>
+</ul>
+<img src="ubuntu总结.assets/image-20201002210054895.png" alt="image-20201002210054895" style="zoom:50%;" />
+
+<blockquote>
+<p>注意：</p>
+<ul>
+<li><code>scp</code>这个终端命令只能在<code>Linux</code>或者<code>UNIX</code>系统下使用</li>
+<li>如果在<code>Windows</code>系统中，可以安装<code>PuTTY</code>，使用<code>pscp</code>命令行工具或者安装<code>FileZill</code>啊使用<code>FTP</code>进行文件传输</li>
+</ul>
+<p><code>FileZilla</code>传输文件时，使用的时FTP服务而不是<code>SSH服务</code>，因此端口号应该设置为<code>21</code></p>
+</blockquote>
+<h5 id="3-3SSH高级（知道）"><a href="#3-3SSH高级（知道）" class="headerlink" title="3.3SSH高级（知道）"></a>3.3SSH高级（知道）</h5><ul>
+<li>免密码登录、</li>
+<li>配置别名</li>
+</ul>
+<blockquote>
+<p>提示：有关SSH配置信息都保存在用户家目录下的<code>.ssh</code>目录下</p>
+</blockquote>
+<h6 id="1）免密码登录"><a href="#1）免密码登录" class="headerlink" title="1）免密码登录"></a>1）免密码登录</h6><p>步骤</p>
+<ul>
+<li>配置公匙<ul>
+<li>执行ssh-keygen即可生成SSH要是，一键回车即可</li>
+</ul>
+</li>
+<li>上传公匙到服务器<ul>
+<li>执行<code>ssh-copy-id -p port user@remote</code>，可以让远程服务器记住我们的公匙</li>
+</ul>
+</li>
+</ul>
+<img src="ubuntu总结.assets/image-20201002212158438.png" alt="image-20201002212158438" style="zoom:50%;" />
       
 
       
@@ -526,6 +730,20 @@
 </article>
 
   
+<nav id="article-nav">
+  
+    <a href="/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          dpkg被中断问题解决方法
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -547,7 +765,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1Linux%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4%E6%A0%BC%E5%BC%8F%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">1Linux终端命令格式：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E6%9F%A5%E8%AF%A2%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9%E4%BF%A1%E6%81%AF%EF%BC%88%E7%9F%A5%E9%81%93%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">2查询命令帮助信息（知道）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1%E2%80%93help"><span class="toc-number">2.1.</span> <span class="toc-text">2.1–help</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2man"><span class="toc-number">2.2.</span> <span class="toc-text">2.2man</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E5%92%8C%E7%9B%AE%E5%BD%95%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%EF%BC%9A"><span class="toc-number">3.</span> <span class="toc-text">文件和目录常用命令：</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%9B%AE%E6%A0%87%EF%BC%9A"><span class="toc-number">3.0.1.</span> <span class="toc-text">目标：</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#01%E6%9F%A5%E7%9C%8B%E7%9B%AE%E5%BD%95%E5%86%85%E5%AE%B9"><span class="toc-number">3.1.</span> <span class="toc-text">01查看目录内容</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-1%E7%BB%88%E7%AB%AF%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7"><span class="toc-number">3.1.1.</span> <span class="toc-text">1.1终端实用技巧</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#1%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8"><span class="toc-number">3.1.1.1.</span> <span class="toc-text">1自动补全</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#2%E6%9B%BE%E7%BB%8F%E4%BD%BF%E7%94%A8%E8%BF%87%E7%9A%84%E5%91%BD%E4%BB%A4"><span class="toc-number">3.1.1.2.</span> <span class="toc-text">2曾经使用过的命令</span></a></li></ol></li><li class="toc-item toc-level-5"><a class="toc-link" href="#1-2ls%E5%91%BD%E4%BB%A4%E8%AF%B4%E6%98%8E"><span class="toc-number">3.1.2.</span> <span class="toc-text">1.2ls命令说明</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#1-3ls%E9%80%9A%E9%85%8D%E7%AC%A6%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">3.1.3.</span> <span class="toc-text">1.3ls通配符的使用</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#02%E5%88%87%E6%8D%A2%E7%9B%AE%E5%BD%95"><span class="toc-number">3.2.</span> <span class="toc-text">02切换目录</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#2-1cd"><span class="toc-number">3.2.1.</span> <span class="toc-text">2.1cd</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-2%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E5%92%8C%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84"><span class="toc-number">3.2.2.</span> <span class="toc-text">2.2相对路径和绝对路径</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#03%E5%88%9B%E5%BB%BA%E5%92%8C%E5%88%A0%E9%99%A4%E6%93%8D%E4%BD%9C"><span class="toc-number">3.3.</span> <span class="toc-text">03创建和删除操作</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#3-1touch"><span class="toc-number">3.3.1.</span> <span class="toc-text">3.1touch</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-2mkdir"><span class="toc-number">3.3.2.</span> <span class="toc-text">3.2mkdir</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-3rm"><span class="toc-number">3.3.3.</span> <span class="toc-text">3.3rm</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#04%E6%8B%B7%E8%B4%9D%E5%92%8C%E7%A7%BB%E5%8A%A8%E6%96%87%E4%BB%B6"><span class="toc-number">3.4.</span> <span class="toc-text">04拷贝和移动文件</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#4-1tree"><span class="toc-number">3.4.1.</span> <span class="toc-text">4.1tree</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-2cp"><span class="toc-number">3.4.2.</span> <span class="toc-text">4.2cp</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-3mv"><span class="toc-number">3.4.3.</span> <span class="toc-text">4.3mv</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#05%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9"><span class="toc-number">3.5.</span> <span class="toc-text">05查看文件内容</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#5-1cat"><span class="toc-number">3.5.1.</span> <span class="toc-text">5.1cat</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#5-2more"><span class="toc-number">3.5.2.</span> <span class="toc-text">5.2more</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#5-3grep"><span class="toc-number">3.5.3.</span> <span class="toc-text">5.3grep</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#06%E5%85%B6%E4%BB%96"><span class="toc-number">3.6.</span> <span class="toc-text">06其他</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#6-1echo-%E6%96%87%E5%AD%97%E5%86%85%E5%AE%B9"><span class="toc-number">3.6.1.</span> <span class="toc-text">6.1echo 文字内容</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#6-2%E9%87%8D%E5%AE%9A%E5%90%91-gt-%E5%92%8C-gt-gt"><span class="toc-number">3.6.2.</span> <span class="toc-text">6.2重定向&gt;和&gt;&gt;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#6-3%E7%AE%A1%E9%81%93"><span class="toc-number">3.6.3.</span> <span class="toc-text">6.3管道</span></a></li></ol></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1Linux%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4%E6%A0%BC%E5%BC%8F%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">1Linux终端命令格式：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E6%9F%A5%E8%AF%A2%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9%E4%BF%A1%E6%81%AF%EF%BC%88%E7%9F%A5%E9%81%93%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">2查询命令帮助信息（知道）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1%E2%80%93help"><span class="toc-number">2.1.</span> <span class="toc-text">2.1–help</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2man"><span class="toc-number">2.2.</span> <span class="toc-text">2.2man</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E5%92%8C%E7%9B%AE%E5%BD%95%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%EF%BC%9A"><span class="toc-number">3.</span> <span class="toc-text">文件和目录常用命令：</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%9B%AE%E6%A0%87%EF%BC%9A"><span class="toc-number">3.0.1.</span> <span class="toc-text">目标：</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#01%E6%9F%A5%E7%9C%8B%E7%9B%AE%E5%BD%95%E5%86%85%E5%AE%B9"><span class="toc-number">3.1.</span> <span class="toc-text">01查看目录内容</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-1%E7%BB%88%E7%AB%AF%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7"><span class="toc-number">3.1.1.</span> <span class="toc-text">1.1终端实用技巧</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#1%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8"><span class="toc-number">3.1.1.1.</span> <span class="toc-text">1自动补全</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#2%E6%9B%BE%E7%BB%8F%E4%BD%BF%E7%94%A8%E8%BF%87%E7%9A%84%E5%91%BD%E4%BB%A4"><span class="toc-number">3.1.1.2.</span> <span class="toc-text">2曾经使用过的命令</span></a></li></ol></li><li class="toc-item toc-level-5"><a class="toc-link" href="#1-2ls%E5%91%BD%E4%BB%A4%E8%AF%B4%E6%98%8E"><span class="toc-number">3.1.2.</span> <span class="toc-text">1.2ls命令说明</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#1-3ls%E9%80%9A%E9%85%8D%E7%AC%A6%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">3.1.3.</span> <span class="toc-text">1.3ls通配符的使用</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#02%E5%88%87%E6%8D%A2%E7%9B%AE%E5%BD%95"><span class="toc-number">3.2.</span> <span class="toc-text">02切换目录</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#2-1cd"><span class="toc-number">3.2.1.</span> <span class="toc-text">2.1cd</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-2%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E5%92%8C%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84"><span class="toc-number">3.2.2.</span> <span class="toc-text">2.2相对路径和绝对路径</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#03%E5%88%9B%E5%BB%BA%E5%92%8C%E5%88%A0%E9%99%A4%E6%93%8D%E4%BD%9C"><span class="toc-number">3.3.</span> <span class="toc-text">03创建和删除操作</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#3-1touch"><span class="toc-number">3.3.1.</span> <span class="toc-text">3.1touch</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-2mkdir"><span class="toc-number">3.3.2.</span> <span class="toc-text">3.2mkdir</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-3rm"><span class="toc-number">3.3.3.</span> <span class="toc-text">3.3rm</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#04%E6%8B%B7%E8%B4%9D%E5%92%8C%E7%A7%BB%E5%8A%A8%E6%96%87%E4%BB%B6"><span class="toc-number">3.4.</span> <span class="toc-text">04拷贝和移动文件</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#4-1tree"><span class="toc-number">3.4.1.</span> <span class="toc-text">4.1tree</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-2cp"><span class="toc-number">3.4.2.</span> <span class="toc-text">4.2cp</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-3mv"><span class="toc-number">3.4.3.</span> <span class="toc-text">4.3mv</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#05%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9"><span class="toc-number">3.5.</span> <span class="toc-text">05查看文件内容</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#5-1cat"><span class="toc-number">3.5.1.</span> <span class="toc-text">5.1cat</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#5-2more"><span class="toc-number">3.5.2.</span> <span class="toc-text">5.2more</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#5-3grep"><span class="toc-number">3.5.3.</span> <span class="toc-text">5.3grep</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#06%E5%85%B6%E4%BB%96"><span class="toc-number">3.6.</span> <span class="toc-text">06其他</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#6-1echo-%E6%96%87%E5%AD%97%E5%86%85%E5%AE%B9"><span class="toc-number">3.6.1.</span> <span class="toc-text">6.1echo 文字内容</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#6-2%E9%87%8D%E5%AE%9A%E5%90%91-gt-%E5%92%8C-gt-gt"><span class="toc-number">3.6.2.</span> <span class="toc-text">6.2重定向&gt;和&gt;&gt;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#6-3%E7%AE%A1%E9%81%93"><span class="toc-number">3.6.3.</span> <span class="toc-text">6.3管道</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9C%E7%A8%8B%E7%AE%A1%E7%90%86%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%EF%BC%9A"><span class="toc-number">4.</span> <span class="toc-text">远程管理常用命令：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9B%AE%E6%A0%87"><span class="toc-number">4.1.</span> <span class="toc-text">目标</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#01%E5%85%B3%E6%9C%BA-%E9%87%8D%E5%90%AF"><span class="toc-number">4.2.</span> <span class="toc-text">01关机&#x2F;重启</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-1shutdown"><span class="toc-number">4.2.1.</span> <span class="toc-text">1.1shutdown</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#02%E6%9F%A5%E7%9C%8B%E6%88%96%E9%85%8D%E7%BD%AE%E7%BD%91%E5%8D%A1%E4%BF%A1%E6%81%AF"><span class="toc-number">4.3.</span> <span class="toc-text">02查看或配置网卡信息</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#2-1%E7%BD%91%E5%8D%A1%E5%92%8CIP%E9%85%8D%E7%BD%AE"><span class="toc-number">4.3.1.</span> <span class="toc-text">2.1网卡和IP配置</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-2ifconfig"><span class="toc-number">4.3.2.</span> <span class="toc-text">2.2ifconfig</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-3ping"><span class="toc-number">4.3.3.</span> <span class="toc-text">2.3ping</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#03%E8%BF%9C%E7%A8%8B%E7%99%BB%E9%99%86%E5%92%8C%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6"><span class="toc-number">4.4.</span> <span class="toc-text">03远程登陆和复制文件</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#3-1ssh%E5%9F%BA%E7%A1%80%EF%BC%88%E9%87%8D%E7%82%B9%EF%BC%89"><span class="toc-number">4.4.1.</span> <span class="toc-text">3.1ssh基础（重点）</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#1%E3%80%8B%E5%9F%9F%E5%90%8D%E5%92%8C%E7%AB%AF%E5%8F%A3%E5%8F%B7"><span class="toc-number">4.4.1.1.</span> <span class="toc-text">1》域名和端口号</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#2%E3%80%8B-windows%E4%B8%8BSSH%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9A%84%E5%AE%89%E8%A3%85"><span class="toc-number">4.4.1.2.</span> <span class="toc-text">2》 windows下SSH客户端的安装</span></a></li></ol></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-2scp%EF%BC%88%E6%8E%8C%E6%8F%A1%EF%BC%89"><span class="toc-number">4.4.2.</span> <span class="toc-text">3.2scp（掌握）</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-3SSH%E9%AB%98%E7%BA%A7%EF%BC%88%E7%9F%A5%E9%81%93%EF%BC%89"><span class="toc-number">4.4.3.</span> <span class="toc-text">3.3SSH高级（知道）</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#1%EF%BC%89%E5%85%8D%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95"><span class="toc-number">4.4.3.1.</span> <span class="toc-text">1）免密码登录</span></a></li></ol></li></ol></li></ol></li></ol>
                     </div>
                 </span>
             </div>
@@ -709,6 +927,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">ubuntu笔记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">ubuntu</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">dpkg</a>
               </li>
             
             <div class="clearfix"></div>
