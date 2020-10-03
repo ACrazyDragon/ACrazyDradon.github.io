@@ -8,12 +8,12 @@
   <link rel="dns-prefetch" href="http://www.ACrazyDragon.github.io">
   <title>dpkg被中断问题解决方法 | ACrazyDragon的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Ubuntu安装软件过程中出现的dpkg被中断问题解决方法在安装ssh过程中出现dpkg被中断的现象，如图：  然而根据提示进行操作，并没有解决问题：  原因：这个问题的主要原因是因为&#x2F;var&#x2F;lib&#x2F;dpkg&#x2F;updates文件下的文件有问题，可能是其他软件安装过程或是其他原因导致的，这里删除掉然后重建即可 解决方案：  1.执行sudo rm &#x2F;var&#x2F;lib&#x2F;dpkg&#x2F;updates&#x2F;*">
+  <meta name="description" content="Ubuntu安装软件过程中出现的dpkg被中断问题解决方法">
 <meta property="og:type" content="article">
 <meta property="og:title" content="dpkg被中断问题解决方法">
 <meta property="og:url" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/index.html">
 <meta property="og:site_name" content="ACrazyDragon的博客">
-<meta property="og:description" content="Ubuntu安装软件过程中出现的dpkg被中断问题解决方法在安装ssh过程中出现dpkg被中断的现象，如图：  然而根据提示进行操作，并没有解决问题：  原因：这个问题的主要原因是因为&#x2F;var&#x2F;lib&#x2F;dpkg&#x2F;updates文件下的文件有问题，可能是其他软件安装过程或是其他原因导致的，这里删除掉然后重建即可 解决方案：  1.执行sudo rm &#x2F;var&#x2F;lib&#x2F;dpkg&#x2F;updates&#x2F;*">
+<meta property="og:description" content="Ubuntu安装软件过程中出现的dpkg被中断问题解决方法">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213917673.png">
 <meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213949697.png">
@@ -21,7 +21,7 @@
 <meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002214946375.png">
 <meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002215121030.png">
 <meta property="article:published_time" content="2020-10-02T13:52:47.000Z">
-<meta property="article:modified_time" content="2020-10-02T13:55:58.807Z">
+<meta property="article:modified_time" content="2020-10-03T12:45:45.696Z">
 <meta property="article:author" content="Long Li">
 <meta property="article:tag" content="ubuntu">
 <meta property="article:tag" content="dpkg">
@@ -192,7 +192,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-keyboard-o"></i>
         <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">208字</span>
+        <span class="post-count">228字</span>
       </span>
     </span>
 
@@ -215,7 +215,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <a id="more"></a>
+        <p><strong>Ubuntu安装软件过程中出现的dpkg被中断问题解决方法</strong></p>
+<a id="more"></a>
 
 <h3 id="Ubuntu安装软件过程中出现的dpkg被中断问题解决方法"><a href="#Ubuntu安装软件过程中出现的dpkg被中断问题解决方法" class="headerlink" title="Ubuntu安装软件过程中出现的dpkg被中断问题解决方法"></a><strong>Ubuntu安装软件过程中出现的dpkg被中断问题解决方法</strong></h3><p>在安装ssh过程中出现dpkg被中断的现象，如图：</p>
 <p><img src="../images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213917673.png" alt="image-20201002213917673"></p>
