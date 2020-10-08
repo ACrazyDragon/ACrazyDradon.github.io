@@ -4,7 +4,7 @@
   <url>
     <loc>http://www.acrazydragon.github.io/2020/10/06/Javaweb%E5%AD%A6%E4%B9%A0/</loc>
     
-    <lastmod>2020-10-07</lastmod>
+    <lastmod>2020-10-08</lastmod>
     
   </url>
   
@@ -53,6 +53,13 @@
 
   
   <url>
+    <loc>http://www.acrazydragon.github.io/tags/Ubuntu%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-10-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.acrazydragon.github.io/tags/ubuntu/</loc>
     <lastmod>2020-10-08</lastmod>
     <changefreq>daily</changefreq>
@@ -61,13 +68,6 @@
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/dpkg/</loc>
-    <lastmod>2020-10-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.acrazydragon.github.io/tags/Ubuntu%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2020-10-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -90,14 +90,14 @@
 
   
   <url>
-    <loc>http://www.acrazydragon.github.io/categories/ubuntu/</loc>
+    <loc>http://www.acrazydragon.github.io/categories/Ubuntu%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2020-10-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.acrazydragon.github.io/categories/Ubuntu%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://www.acrazydragon.github.io/categories/ubuntu/</loc>
     <lastmod>2020-10-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
