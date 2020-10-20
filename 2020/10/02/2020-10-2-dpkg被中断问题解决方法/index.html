@@ -15,18 +15,18 @@
 <meta property="og:site_name" content="ACrazyDragon的博客">
 <meta property="og:description" content="Ubuntu安装软件过程中出现的dpkg被中断问题解决方法">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213917673.png">
-<meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213949697.png">
-<meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002214805141.png">
-<meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002214946375.png">
-<meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002215121030.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/source/assets/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213917673-1603179099767.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/source/assets/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213949697-1603179102766.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/source/assets/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002214805141-1603179111210.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/source/assets/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002214946375-1603179113101.png">
+<meta property="og:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/source/assets/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002215121030-1603179114800.png">
 <meta property="article:published_time" content="2020-10-02T13:52:47.000Z">
-<meta property="article:modified_time" content="2020-10-15T11:00:27.595Z">
+<meta property="article:modified_time" content="2020-10-20T07:39:45.740Z">
 <meta property="article:author" content="Long Li">
 <meta property="article:tag" content="ubuntu">
 <meta property="article:tag" content="dpkg">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213917673.png">
+<meta name="twitter:image" content="http://www.acrazydragon.github.io/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/source/assets/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213917673-1603179099767.png">
   
   
     <link rel="icon" href="/assets/tubiao.jpeg">
@@ -218,9 +218,9 @@
         <h2 id="Ubuntu安装软件过程中出现的dpkg被中断问题解决方法"><a href="#Ubuntu安装软件过程中出现的dpkg被中断问题解决方法" class="headerlink" title="Ubuntu安装软件过程中出现的dpkg被中断问题解决方法"></a><strong>Ubuntu安装软件过程中出现的dpkg被中断问题解决方法</strong></h2><a id="more"></a>
 
 <h3 id="Ubuntu安装软件过程中出现的dpkg被中断问题解决方法-1"><a href="#Ubuntu安装软件过程中出现的dpkg被中断问题解决方法-1" class="headerlink" title="Ubuntu安装软件过程中出现的dpkg被中断问题解决方法"></a><strong>Ubuntu安装软件过程中出现的dpkg被中断问题解决方法</strong></h3><p>在安装ssh过程中出现dpkg被中断的现象，如图：</p>
-<p><img src="/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213917673.png" alt="image-20201002213917673"></p>
+<p><img src="/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/source/assets/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213917673-1603179099767.png" alt="image-20201002213917673"></p>
 <p>然而根据提示进行操作，并没有解决问题：</p>
-<p><img src="/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213949697.png" alt="image-20201002213949697"></p>
+<p><img src="/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/source/assets/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002213949697-1603179102766.png" alt="image-20201002213949697"></p>
 <h4 id="原因："><a href="#原因：" class="headerlink" title="原因："></a>原因：</h4><p>这个问题的主要原因是因为/var/lib/dpkg/updates文件下的文件有问题，可能是其他软件安装过程或是其他原因导致的，这里删除掉然后重建即可</p>
 <p>解决方案：</p>
 <blockquote>
@@ -234,18 +234,18 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
 
 <p>执行结果：</p>
-<p><img src="/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002214805141.png" alt="image-20201002214805141"></p>
+<p><img src="/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/source/assets/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002214805141-1603179111210.png" alt="image-20201002214805141"></p>
 <blockquote>
 <p>3.最后执行<code>sudo apt-get upgrade</code></p>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get upgrade</span><br></pre></td></tr></table></figure>
 
 <p>执行结果：</p>
-<p><img src="/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002214946375.png" alt="image-20201002214946375"></p>
+<p><img src="/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/source/assets/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002214946375-1603179113101.png" alt="image-20201002214946375"></p>
 <blockquote>
 <p>4.进行到这一步已经解决问题啦，重新运行安装软件命令行，发现成功啦</p>
 </blockquote>
-<p><img src="/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/images/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002215121030.png" alt="image-20201002215121030"></p>
+<p><img src="/2020/10/02/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/source/assets/2020-10-2-dpkg%E8%A2%AB%E4%B8%AD%E6%96%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/image-20201002215121030-1603179114800.png" alt="image-20201002215121030"></p>
 
       
 
@@ -605,7 +605,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">mybatis</a>
+                <a href="javascript:void(0)" class="js-tag color4">Ubuntu笔记</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -617,7 +617,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Ubuntu笔记</a>
+                <a href="javascript:void(0)" class="js-tag color3">mybatis</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Spring</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">mysql</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -626,14 +634,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">javaweb</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">mysql</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Spring</a>
               </li>
             
             <div class="clearfix"></div>
