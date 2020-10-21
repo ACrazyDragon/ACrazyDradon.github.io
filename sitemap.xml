@@ -88,6 +88,20 @@
 
   
   <url>
+    <loc>http://www.acrazydragon.github.io/tags/ubuntu/</loc>
+    <lastmod>2020-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.acrazydragon.github.io/tags/dpkg/</loc>
+    <lastmod>2020-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.acrazydragon.github.io/tags/IDEA/</loc>
     <lastmod>2020-10-21</lastmod>
     <changefreq>daily</changefreq>
@@ -103,20 +117,6 @@
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/Ubuntu%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.acrazydragon.github.io/tags/ubuntu/</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.acrazydragon.github.io/tags/dpkg/</loc>
     <lastmod>2020-10-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -160,6 +160,20 @@
 
   
   <url>
+    <loc>http://www.acrazydragon.github.io/categories/ubuntu/</loc>
+    <lastmod>2020-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.acrazydragon.github.io/categories/ubuntu/dpkg/</loc>
+    <lastmod>2020-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.acrazydragon.github.io/categories/IDEA/</loc>
     <lastmod>2020-10-21</lastmod>
     <changefreq>daily</changefreq>
@@ -167,21 +181,7 @@
   </url>
   
   <url>
-    <loc>http://www.acrazydragon.github.io/categories/IDEA/MySQL/</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.acrazydragon.github.io/categories/Ubuntu%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-10-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.acrazydragon.github.io/categories/ubuntu/</loc>
     <lastmod>2020-10-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -202,7 +202,7 @@
   </url>
   
   <url>
-    <loc>http://www.acrazydragon.github.io/categories/ubuntu/dpkg/</loc>
+    <loc>http://www.acrazydragon.github.io/categories/IDEA/MySQL/</loc>
     <lastmod>2020-10-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
