@@ -6,7 +6,7 @@
   <link href="http://www.acrazydragon.github.io/atom.xml" rel="self"/>
   
   <link href="http://www.acrazydragon.github.io/"/>
-  <updated>2020-10-28T09:50:42.934Z</updated>
+  <updated>2020-11-04T08:25:22.126Z</updated>
   <id>http://www.acrazydragon.github.io/</id>
   
   <author>
@@ -17,22 +17,23 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://www.acrazydragon.github.io/2020/10/28/SpringMVC%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://www.acrazydragon.github.io/2020/10/28/SpringMVC%E5%AD%A6%E4%B9%A0/</id>
-    <published>2020-10-28T09:41:48.693Z</published>
-    <updated>2020-10-28T09:50:42.934Z</updated>
+    <title>SpringMVC学习</title>
+    <link href="http://www.acrazydragon.github.io/2020/11/04/SpringMVC%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://www.acrazydragon.github.io/2020/11/04/SpringMVC%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-11-04T08:24:51.000Z</published>
+    <updated>2020-11-04T08:25:22.126Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="SpringMVC"><a href="#SpringMVC" class="headerlink" title="SpringMVC"></a>SpringMVC</h2><p>ssm:mybatis+Spring+SpringMVC    <strong>MVC三层架构</strong></p><p>javaSE：认真学习，老师带，入门快</p><p>javaWeb：认真学习，老师带，入门快</p><p>框架：研究官方文档，锻炼自学能力，锻炼笔记能力，锻炼项目能力。</p><p>SpringMVC+Vue+SpringBoot+SpringCloud+Linux</p><p>SSM=JavaWeb做项目</p><p>Spring ：IOC 和 AOP</p><p>SpringMVC：SpringMVC的执行流程！</p><p>SpringMVC：SSM框架整合！</p><p>MVC：模型（dao，service）    视图（jsp）    控制器（Servlet）</p><p>dao</p><p>service</p><p>servlet : 转发，重定向</p><p>jsp/html</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="SpringMVC学习笔记"><a href="#SpringMVC学习笔记" class="headerlink" title="SpringMVC学习笔记"></a>SpringMVC学习笔记</h2><a id="more"></a><p>ssm:mybatis+Spring+SpringMVC    <strong>MVC三层架构</strong>s</p><p>javaSE：认真学习，老师带，入门快</p><p>javaWeb：认真学习，老师带，入门快</p><p>框架：研究官方文档，锻炼自学能力，锻炼笔记能力，锻炼项目能力。</p><p>SpringMVC+Vue+SpringBoot+SpringCloud+Linux</p><p>SSM=JavaWeb做项目</p><p>Spring ：IOC 和 AOP</p><p>SpringMVC：SpringMVC的执行流程！</p><p>SpringMVC：SSM框架整合！</p><p>MVC：模型（dao，service）    视图（jsp）    控制器（Servlet）</p><p>dao</p><p>service</p><p>servlet : 转发，重定向</p><p>jsp/html</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h2 id=&quot;SpringMVC&quot;&gt;&lt;a href=&quot;#SpringMVC&quot; class=&quot;headerlink&quot; title=&quot;SpringMVC&quot;&gt;&lt;/a&gt;SpringMVC&lt;/h2&gt;&lt;p&gt;ssm:mybatis+Spring+SpringMVC    &lt;strong&gt;MV</summary>
-      
+    <summary type="html">&lt;h2 id=&quot;SpringMVC学习笔记&quot;&gt;&lt;a href=&quot;#SpringMVC学习笔记&quot; class=&quot;headerlink&quot; title=&quot;SpringMVC学习笔记&quot;&gt;&lt;/a&gt;SpringMVC学习笔记&lt;/h2&gt;</summary>
     
     
     
+    <category term="springmvc" scheme="http://www.acrazydragon.github.io/categories/springmvc/"/>
+    
+    
+    <category term="springmvc" scheme="http://www.acrazydragon.github.io/tags/springmvc/"/>
     
   </entry>
   

@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.acrazydragon.github.io/2020/10/28/SpringMVC%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>http://www.acrazydragon.github.io/2020/11/04/SpringMVC%E5%AD%A6%E4%B9%A0/</loc>
     
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     
   </url>
   
@@ -88,7 +88,7 @@
 
   <url>
     <loc>http://www.acrazydragon.github.io/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -96,70 +96,77 @@
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/ubuntu/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/dpkg/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/IDEA/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/MySQL/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/Ubuntu%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/mybatis/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/Spring/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/mysql/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/ubuntu%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/tags/javaweb/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.acrazydragon.github.io/tags/springmvc/</loc>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -168,70 +175,77 @@
   
   <url>
     <loc>http://www.acrazydragon.github.io/categories/ubuntu/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/categories/ubuntu/dpkg/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/categories/IDEA/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/categories/Ubuntu%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/categories/mybatis/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/categories/Spring/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/categories/IDEA/MySQL/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/categories/mybatis/mysql/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/categories/ubuntu%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.acrazydragon.github.io/categories/javaweb/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-11-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.acrazydragon.github.io/categories/springmvc/</loc>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
